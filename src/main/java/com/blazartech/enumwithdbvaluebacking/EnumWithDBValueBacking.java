@@ -7,9 +7,12 @@ package com.blazartech.enumwithdbvaluebacking;
 import java.util.stream.Stream;
 
 /**
- * an interface for enumeration types that have database value backing.
+ * an interface for enumeration types that have database value backing. The main
+ * value of this interface are the static methods that faciliate converting a DB
+ * value into the appropriate enumeration.
  * 
  * @author scott
+ * @param <T> the type of the underlying DB value
  */
 public interface EnumWithDBValueBacking<T> {
     
